@@ -1,0 +1,144 @@
+.coxboxbody {
+	font-family:optima, sans-serif;
+	background-color: rgba(240, 240, 240, 1);
+}
+
+/*Sidebar menu*/
+.sidebar {
+	height : 100%; /*Full height*/
+	width: 0; /*0 width 0 changes with javascript*/
+	position:fixed; /* does not move*/
+	z-index: 2; /*Stays on top*/
+	top:0px;
+	right:2vw;
+	color:rgba(255,255,255,1);
+	background-color: rgba(52, 52, 52, 0.9); /*Blue*/
+	overflow-x: hidden; /*disable horizontal Scroll*/
+	padding-top: 84px; /*place content 84px from the top*/
+	transition: 0.5s;  /*0.5 second transition effect*/
+}
+
+/*Sidebar links*/
+
+.sidebar li{
+		list-style-type: none;
+}
+
+.sidebar li a {
+	padding: 8px 8px 8px 8px;
+	text-decoration: none;
+	font-size: 25px;
+	display: block;
+	transition: 0.3s;
+	color:rgba(255,255,255,1);
+	display: inline-block;
+
+}
+
+/*mouse over the navigation links, change color*/
+.sidebar li a:hover {
+	color: rgba(150,150,150,0.9);
+
+}
+
+/*Positon and style the close button (top right)*/
+.sidebar .closebtn {
+	position: absolute;
+	top: 0;
+	left: 25px;
+	font-size: 25px;
+}
+
+@media screen and (max-height: 450px) {
+	.sidebar {padding-top: 15px;}
+	.sidebar a {font-size: 18px;}
+	}
+
+.banner {
+	background-color: rgba(52, 52, 52, 1);
+	display:block;
+	color:#ffffff;
+	height:auto;
+	position:fixed;
+	top:0;
+	width:96vw;
+	margin:0px 2vw 16px 2vw;
+	z-index: 1; /*Stays on top*/
+}
+
+.bannerlist{
+	margin: 0;
+	padding-inline-start: 0px;
+}
+.bannerlist li {
+	list-style-type: none;
+	display: inline-block;
+	margin:0;
+	padding:0;
+}
+/* Button used to open the sidebar*/
+.openbtn {
+	font-size: 25px;
+	background-color: rgba(52, 52, 52,0.9);
+	color: rgba(255,255,255,1);
+	padding: 8px;
+	border: none;
+	opacity:1;
+	transition: 0.5;
+	position:absolute;
+	right:8px;
+	top:20px;
+}
+
+.openbtn:hover {
+	color: rgba(150,150,150,0.9);
+}
+
+#websitenameimg {
+	max-width:100%;
+	width:auto;
+	max-height: 80px;
+}
+
+.main {
+	width:96vw;
+	margin:96px 2vw 8px 2vw;
+}
+
+.jumbotron{
+	margin: 0 0 16px 0;
+	border-radius: 0;
+	background-color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
+}
+
+.jumbotron h1 {
+	text-align: center;
+}
+
+.card {
+	margin: 0 0 16px 0;
+	background-color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
+	border-radius: 0;
+	text-align: center;
+}
+
+.card-img-top {
+	padding: 8px;
+}
+
+.card h3 {
+	text-align: center;
+}
+
+.card p {
+	text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+	.row {
+		padding-left: 10vw;
+		padding-right: 10vw;
+	}
+}

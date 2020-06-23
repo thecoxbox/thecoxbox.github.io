@@ -1,11 +1,166 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello World</title>
+	<title>Home</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/thecoxbox.css"> 
 </head>
-<body>
-	<p>Hello World</p>
-	<h1> I love Chivey C</h1>
+<body class="coxboxbody">
 
+	<div id="navigationSidebar" class="sidebar">
+		<ul>
+			<li class="closebtn" onclick="closeNav()"><a href="javascript:void(0)">&times;</a></li>
+			<li><a href="#">Link</a></li>
+			<li>
+				<ul>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Link</a></li>
+			<li>
+				<ul>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Link</a></li>
+			<li>
+				<ul>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+					<li><a href="#">Link</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Link</a></li>
+			<li><a href="#">Link</a></li>
+		</ul>
+	</div>
+	<div class="banner">
+		<ul class="bannerlist">
+		<li>
+			<a href="homepage.html"><img src="images/thecoxbox.png" id="websitenameimg"></a>
+		</li>
+		<li> 
+			<button class="openbtn" id="openbtn" onclick="openNav()">&#9776;</button>
+		</li>
+	</div>
+	<div class="main">
+		<div class="row_top">
+			<div class="col-sm-12 top_card">
+				<div class="card">
+					<img class="card-img-top" src="images/italy.png">
+					<div class=card-body>
+						<h3 class="card-title">Card</h3>
+						<p class="card-text">Random text</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="card">
+					<img class="card-img-top" src="images/sleaford.png">
+					<div class=card-body>
+						<h3 class="card-title">Card</h3>
+						<p class="card-text">Random text</p>
+						<a href="#" class="btn  btn-primary">Link</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="card">
+					<img class="card-img-top" src="images/sleaford.png">
+					<div class=card-body>
+						<h3 class="card-title">Card</h3>
+						<p class="card-text">Random text</p>
+						<a href="#" class="btn  btn-primary">Link</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="card">
+					<img class="card-img-top" src="images/sleaford.png">
+					<div class=card-body>
+						<h3 class="card-title">Card</h3>
+						<p class="card-text">Random text</p>
+						<a href="#" class="btn  btn-primary">Link</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="card">
+					<img class="card-img-top" src="images/sleaford.png">
+					<div class=card-body>
+						<h3 class="card-title">Card</h3>
+						<p class="card-text">Random text</p>
+						<a href="#" class="btn  btn-primary">Link</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card">
+					<img class="card-img-top" src="images/sleaford.png">
+					<div class=card-body>
+						<h3 class="card-title">Card</h3>
+						<p class="card-text">Random text</p>
+						<a href="#" class="btn  btn-primary">Link</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card">
+					<img class="card-img-top" src="images/sleaford.png">
+					<div class=card-body>
+						<h3 class="card-title">Card</h3>
+						<p class="card-text">Random text</p>
+						<a href="#" class="btn  btn-primary">Link</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="card">
+					<img class="card-img-top" src="images/sleaford.png">
+					<div class=card-body>
+						<h3 class="card-title">Card</h3>
+						<p class="card-text">Random text</p>
+						<a href="#" class="btn  btn-primary">Link</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card">
+					<img class="card-img-top" src="images/sleaford.png">
+					<div class=card-body>
+						<h3 class="card-title">Card</h3>
+						<p class="card-text">Random text</p>
+						<a href="#" class="btn  btn-primary">Link</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card">
+					<img class="card-img-top" src="images/sleaford.png">
+					<div class=card-body>
+						<h3 class="card-title">Card</h3>
+						<p class="card-text">Random text</p>
+						<a href="#" class="btn  btn-primary">Link</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<script type="text/javascript" src="js/thecoxbox.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
 </html>
